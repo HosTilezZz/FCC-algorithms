@@ -1,4 +1,4 @@
-old solution:
+**old solution:**
 ```javascript
 function reverseString(str) {
   var result = str.split("");
@@ -8,7 +8,7 @@ function reverseString(str) {
 }
 ```
 
-new solution:
+**new solution:**
 ```javascript
 function reverseString(str) {
     newArray = str.split("");
@@ -17,5 +17,7 @@ function reverseString(str) {
     return result;   
 }
 ```
+**comment:**
 
+exactly the same, nothing to say here.
 
