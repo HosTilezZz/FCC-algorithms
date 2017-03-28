@@ -1,2 +1,2 @@
-# Learning-process
-everything related to my web development learning process, the books, algorithm challenges and projects.
+# Learning process
+everything related to my web development learning process, the books, algorithms, challenges and projects. 
