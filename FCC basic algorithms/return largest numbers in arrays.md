@@ -35,5 +35,5 @@ function largestOfFour(arr) {
 **comment:**
 
 i really don't like the old solution, the idea is obviously the same since the algorithm is too simple to have any real
-difference in the used approach, but the nested for loop is really unneccsaary and uncomfortable to read, at least for me.
+difference in the used approach, but the nested for loop is really unneccsaary and uncomfortable to read, at least for me .
 
