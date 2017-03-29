@@ -40,5 +40,5 @@ function truncateString(str, num) {
 ```
 **comment:**
 
-used return after the end of every condition instead of just putting it in the end, minor difference.
+used return after the end of every condition instead of just putting it in the end, minor difference .
 
