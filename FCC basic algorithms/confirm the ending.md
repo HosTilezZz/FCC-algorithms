@@ -21,5 +21,6 @@ function confirmEnding(str, target) {
 }
 ```
 **comment:**
+
 using substr() negative index number to count from the ending of the string instead of using substring, a minor difference.
 
