@@ -46,4 +46,4 @@ function diffArray(arr1, arr2) {
 ```
 **comment:**
 
-anyone who is fammiliar with the bind() method and spread syntax should find the new solution to be better.
+anyone who is fammiliar with the bind() method and spread syntax should find the new solution to be better, i did however overcomplicate things with this solution.
