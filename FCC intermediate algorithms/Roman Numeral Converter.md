@@ -108,4 +108,14 @@ function convertToRoman(num) {
 
 i'm quite disappointed with both of my solutions, in my opinion, the first one is difficult to read, and the second one just
 provides an array that has all the required strings, which makes it difficult to increase the range of numbers accepted by
-this function, i've tried a few different approaches but it seems that i always end up with "unpleasant-looking" code.
+this function, i could add the following function to try to make increasing the range of numbers less annoying:
+```javascript
+function increaseRange(a, b, c) {
+        if (typeof arguments[0]==="string" && typeof arguments[1]==="string" &&
+	typeof arguments[2]==="string") {
+        romans.push([a, a.repeat(2), a.repeat(3), a+b, b, b+a, b+a.repeat(2), b+a.repeat(3), b+c]);
+        }
+    }
+```
+
+i've tried a few different approaches but it seems that i always end up with "unpleasant-looking" code.
