@@ -28,4 +28,4 @@ function binaryAgent(str) {
 **comment:**
 
 both solutions are using the same approach, passing every 8-bit to the praseInt() method with a base of 2, and then
-passing the result as the argument of fromCodePoint() method
+passing the result as the argument of fromCodePoint() method.
