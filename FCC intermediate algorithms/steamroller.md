@@ -49,4 +49,4 @@ function steamrollArray(arr) {
 **comment:**
 
 the old solution is better, after solving this algorithm i ended up with a code that is identical to the old solution, so i
-felt like trying to solve it using loops.
+felt like trying to solve it using loops, i don't know why but ... for some reason i find this challenge quite fun.
