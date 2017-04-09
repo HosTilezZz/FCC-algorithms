@@ -25,4 +25,12 @@ function telephoneCheck(str) {
 ```
 
 **comment:**
-this challenge made me a bit more comfortable with regexp, i included a flowchart explaining the algorithm as well
+this challenge made me a bit more comfortable with regexp, the following table explains each regexp used:
+
+| RegExp        | Pattern           |
+| ------------- |:-------------:|
+| [^0-9-() ]      | anything that isn't a number (0-9), a hyphen "-" or parentheses "(" ")" |
+| [\()]      | parentheses "(" ")" |
+| \([\d]{3}\) | a single parentheses "(" followed by 3 numbers and then by a single closing parentheses ")"      |
+| \-(?=\-)      | a hyphen "-" followed by another hyphen |
+| [\d]      | any number |
