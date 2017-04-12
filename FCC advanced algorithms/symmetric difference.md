@@ -1,15 +1,10 @@
 **solution:**
 ```javascript
 function sym(args) {
-    var argsArr = Array.from(arguments);
-    while (argsArr.length>1) {
-        var diffArr = diff(argsArr[0],argsArr[1]);
-        argsArr.shift();
-        argsArr.shift();
-        argsArr.push(diffArr);
-    }
+    var argsArr = Array.from(arguments); 
     
     function diff(arr1, arr2) {
+        if ( !arr2 ) { return arr1; }
         var result = [];
         for (var i=0 ; i<arr1.length ; i++) {
             if (arr2.indexOf(arr1[i])===-1 && result.indexOf(arr1[i])===-1) {
@@ -21,15 +16,16 @@ function sym(args) {
                 result.push(arr2[j]);
             }
         }
-        return result;
+        argsArr.shift();
+        argsArr.shift();
+        argsArr.push(result);
+        return diff(argsArr[0],argsArr[1]);
     }
-    return argsArr[0].sort(function compare(a, b) {
-        return a-b;
-    });
+    return diff(argsArr[0],argsArr[1]);
 }
 ```
 
 **comment:**
 
-this solution is too simple, the idea of this challenge is to make you more comfortable with the reduce() method, i'll be
-adding more solutions later
+the idea of this challenge is to make you more comfortable with reduce() method which i'm not even using here, i might add
+a different solution later.
