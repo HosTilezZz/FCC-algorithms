@@ -25,6 +25,7 @@ function telephoneCheck(str) {
 ```
 
 **comment:**
+
 i'm not very happy with solution, but this challenge made me a bit more comfortable with regexp, the following table explains
 each regexp used:
 
